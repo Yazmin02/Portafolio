@@ -1,0 +1,62 @@
+/* Fondo rosado y colores de texto */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fce4ec;
+}
+
+#sobre-mi, #experiencia, #habilidades, #educacion, #contacto {
+  padding: 50px 0;
+}
+
+/* Estilo de las tarjetas */
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.full-screen {
+  height: 100vh;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+  background-color: #f06292 !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+/* Estilo de los botones */
+.btn-lg {
+  background-color: #f06292;
+  color: white;
+  margin: 10px;
+}
+
+/* Estilo de la sección de contacto */
+#contacto {
+  background-color: #f8bbd0;
+}
+
+footer {
+  background-color: #212121;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Estilos adicionales */
+body {
+  scroll-behavior: smooth;
+}
+
+.full-screen {
+  min-height: 100vh;
+}

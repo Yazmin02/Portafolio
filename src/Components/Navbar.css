@@ -1,0 +1,28 @@
+/* Barra de navegación */
+.navbar {
+  background-color: #000000; /* Fondo negro */
+}
+
+/* Estilo para los enlaces del menú */
+.navbar .nav-link {
+  color: #ffffff !important; /* Blanco */
+  font-weight: bold;
+}
+
+/* Estilo para los enlaces del menú al pasar el ratón */
+.navbar .nav-link:hover {
+  color: #f56fa1 !important; /* Rosa */
+}
+
+/* Fondo rosa para la sección de bienvenida */
+h1, h2 {
+  color: #f56fa1; /* Rosa */
+  text-align: center;
+}
+
+/* Color de texto negro para otras secciones */
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Arial', sans-serif;
+}
